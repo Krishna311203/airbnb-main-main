@@ -1,8 +1,32 @@
-# React + Vite
+# Airbnb Clone README
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
 
-Currently, two official plugins are available:
+This project is an Airbnb clone with a modern design and essential features for booking accommodations. The project is structured into two main folders: `frontend` and `backend`. The `frontend` is built with React, and the `backend` uses Node.js, Express, and MongoDB Atlas for the database.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- **Search Functionality**: Users can search for listings based on location, date, and price range.
+- **Responsive Design**: The frontend features a modern and responsive design.
+- **Dynamic Data Rendering**: Listings are dynamically fetched and rendered from the database.
+- **Booking Management**: Users can view available dates and make bookings.
+
+## Screenshots
+
+*(Include some screenshots of your application here)*
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js
+- npm or yarn
+- MongoDB Atlas account
+
+### Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/yourusername/airbnb-clone.git
+   cd airbnb-clone
